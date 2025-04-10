@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica';
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   scroll-behavior: smooth;
   list-style: none;
@@ -139,7 +139,14 @@ section{
   display: flex;
   gap: 1rem;
 }
-.btn{
+.btn,
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:active{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
   border-radius: 3rem;
   padding: 0.5rem 1.5rem;
   border: 2px solid black;
@@ -147,6 +154,7 @@ section{
   font-weight: 500;
   text-wrap: nowrap;
   transition: 0.2s ease-in-out;
+  color: black;
 }
 .btn:hover{
   background-color: black;
@@ -155,6 +163,22 @@ section{
 .socials{
   display: flex;
   gap: 2rem;
+}
+
+.socials a{
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.socials a i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.socials a:hover{
+  transform: scale(1.1);
+  color: black;
 }
 .socials i{
   font-size: 2.5rem;
@@ -337,6 +361,55 @@ footer ul li a{
   font-size: 300;
   margin-top: 2rem;
 }
+
+.articles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.article {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  border: 2px solid black;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  max-width: 100%;
+}
+
+.article img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.article-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.article-info .year {
+  font-weight: 500;
+  color: gray;
+}
+
+.article-info .title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.read-btn {
+  width: 120px;
+  text-align: center;
+}
+
 
 @media(max-width:1280px){
   header{
