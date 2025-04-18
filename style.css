@@ -332,11 +332,11 @@ section{
 .projects-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .project-card{
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -355,7 +355,7 @@ section{
   transform: translateY(-10px)scale(1.02);
 }
 .project-card img{
-  width: 20vw;
+  width: 15vw;
   border-radius: 1rem;
 }
 .project-card:hover .btn{
