@@ -393,6 +393,38 @@ section{
   height: 2.5rem;
 }
 
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr; 
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .project-card img {
+    max-width: 300px;
+    width: 80%; 
+  }
+
+  .project-card h3 {
+    font-size: 1.5rem; 
+  }
+
+  .project-card p {
+    font-size: 0.9rem; 
+  }
+
+  .project-card ul li .svg-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
 .articles-list {
   display: flex;
   flex-direction: column;
