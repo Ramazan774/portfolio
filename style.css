@@ -104,13 +104,13 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 5rem;
   width: 100%;
 }
 
 .about img{
   width: 22vw;
-  max-width: 250px;
+  max-width: 300px;
   min-width: 180px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
