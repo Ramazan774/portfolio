@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Website</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <header class="header">
     <a href="#" class="logo"><span>Ramazan Ramazanov</span></a>
@@ -26,27 +29,31 @@
         <a href="#articles">Articles</a>
       </li>
     </ul>
-    
+
     <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-    <a href="https://github.com/Ramazan774" target="_blank"><button class="visit-btn">Visit Github</button></a></button>
+    <a href="https://github.com/Ramazan774" target="_blank"><button class="visit-btn">Visit Github</button></a>
   </header>
 
   <section id="about" class="about">
     <div class="about-container">
-      <img src="assets/37211800.jpg" alt="coding image">
+      <img src="assets/37211800.JPG" alt="coding image">
       <div class="info-box">
         <div class="text">
           <h3>Hello, I'm</h3>
           <h1>Ramazan Ramazanov</h1>
           <span>Software Developer & Automation Engineer</span>
-          <p>I’m a Full Stack Developer with a strong foundation in frontend engineering and a background in QA. 
-            I build modern, scalable web applications using technologies like Next.js and Sitecore CMS, applying 6+ years of quality engineering 
-            experience to write clean, maintainable, and reliable code. Alongside frontend development, I also design automation frameworks 
+          <p>I’m a Full Stack Developer with a strong foundation in frontend engineering and a background in QA.
+            I build modern, scalable web applications using technologies like Next.js and Sitecore CMS, applying 6+
+            years of quality engineering
+            experience to write clean, maintainable, and reliable code. Alongside frontend development, I also design
+            automation frameworks
             that help teams ship faster and with confidence.
 
-            In my current role, I work as a developer who also contributes automation solutions that support the apps I help build. 
-            Outside of work, I volunteer as a React assignments reviewer at Code the Dream - where I first contributed in 2021 and returned again 
+            In my current role, I work as a developer who also contributes automation solutions that support the apps I
+            help build.
+            Outside of work, I volunteer as a React assignments reviewer at Code the Dream - where I first contributed
+            in 2021 and returned again
             in 2025 to support new developers in their learning journey.
           </p>
         </div>
@@ -72,86 +79,92 @@
 
     <div class="tech-stack">
       <h2 id="tech">Technologies</h2>
-      <ul class="svg-icon-list">
-        <li>
-          <img src="assets/html.svg" alt="HTML icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/css.svg" alt="CSS icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/js.svg" alt="Javscript icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/react.svg" alt="React icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/nextjs-icon.svg" alt="NextJS icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/tailwindcss.svg" alt="TailwindCSS icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/c-sharp.svg" alt="CSharp icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/dot-net.svg" alt="Dotnet icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/nodejs.svg" alt="NodeJS icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/azure-devops.svg" alt="Azure DevOps icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/sql-database.svg" alt="SQL icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/selenium.svg" alt="selenium icon" class="svg-icon">
-        </li>
-      </ul>
+      <div class="bento-grid-tech">
+
+        <div class="bento-card frontend">
+          <h3>Frontend</h3>
+          <ul class="tech-list">
+            <li><img src="assets/html.svg" alt="HTML"><span>HTML</span></li>
+            <li><img src="assets/css.svg" alt="CSS"><span>CSS</span></li>
+            <li><img src="assets/js.svg" alt="JS"><span>JavaScript</span></li>
+            <li><img src="assets/react.svg" alt="React"><span>React</span></li>
+            <li><img src="assets/tailwindcss.svg" alt="Tailwind"><span>Tailwind</span></li>
+            <li><img src="assets/nextjs-icon.svg" alt="NextJS"><span>Next.js</span></li>
+          </ul>
+        </div>
+
+        <div class="bento-card backend">
+          <h3>Backend</h3>
+          <ul class="tech-list">
+            <li><img src="assets/c-sharp.svg" alt="C#"><span>C#</span></li>
+            <li><img src="assets/dot-net.svg" alt=".NET"><span>.NET</span></li>
+            <li><img src="assets/nodejs.svg" alt="Node"><span>Node.js</span></li>
+            <li><img src="assets/sql-database.svg" alt="SQL"><span>SQL</span></li>
+          </ul>
+        </div>
+
+        <div class="bento-card tools">
+          <h3>Tools & QA</h3>
+          <ul class="tech-list">
+            <li><img src="assets/azure-devops.svg" alt="Azure"><span>Azure</span></li>
+            <li><img src="assets/selenium.svg" alt="Selenium"><span>Selenium</span></li>
+          </ul>
+        </div>
+
+      </div>
     </div>
   </section>
 
   <section id="experience" class="experience">
     <h2 class="section-title">Experience</h2>
 
-    <div class="experience-info">
-
-      <div class="grid">
-        <div class="grid-card">
-          <i class="fa-solid fa-code"></i>
-          <span>Full Stack Development</span>
-          <h3>1 Year</h3>
-          <p>Working as a full stack web developer at Novs Web Design</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Volunteer</h3>
+          <h4>Code the Dream</h4>
+          <span class="date">11/2025 - Current</span>
         </div>
-
-        <div class="grid-card">
-          <i class="fa-solid fa-file-code"></i>
-          <span>QA Engineer</span>
-          <h3>6 Years</h3>
-          <p>Worked in Automation and manual testing.</p>
-        </div>
-
-        <div class="grid-card">
-          <i class="fa-solid fa-dollar-sign"></i>
-          <span>Assignment Reviewer</span>
-          <h3>1 Year</h3>
-          <p>Working as a volunteer to review React assignments for Code the Dream bootcamp students.</p>
-        </div>
-
-        <div class="grid-card">
-          <i class="fa-solid fa-futbol"></i>
-          <span>Soccer Referee</span>
-          <h3>1 Year</h3>
-          <p>Working part time as a Youth Soccer Referee. </p>
-        </div>
-
       </div>
 
-      <img src="assets/coding.png" alt="Coding laptop image">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Youth Soccer Referee</h3>
+          <h4>US Soccer</h4>
+          <span class="date">09/2024 - Current</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Web Developer</h3>
+          <h4>Novs Web Design Group</h4>
+          <span class="date">07/2024 - Current</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>QA Engineer</h3>
+          <h4>UCare</h4>
+          <span class="date">12/2023 - Current</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>QA Engineer</h3>
+          <h4>Scratch Foundation</h4>
+          <span class="date">09/2022 - 08/2023</span>
+        </div>
+      </div>
     </div>
-    
+
   </section>
 
   <section id="projects" class="projects">
@@ -190,7 +203,8 @@
         </ul>
         <div class="btn-group">
           <div><a href="https://www.novsweb.com/" target="_blank" class="btn">Live Demo</a></div>
-          <div><a href="https://github.com/Ramazan774/portfolio-website" target="_blank" class="btn">Github Repo</a></div>
+          <div><a href="https://github.com/Ramazan774/portfolio-website" target="_blank" class="btn">Github Repo</a>
+          </div>
         </div>
       </div>
 
@@ -235,53 +249,38 @@
         <h3>SpecFlow Recorder</h3>
         <p>A chrome extension to generate SpecFlow scenarios.</p>
         <ul class="svg-icon-list">
-        <li>
-          <img src="assets/js.svg" alt="JS icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/c-sharp.svg" alt="C sharp icon" class="svg-icon">
-        </li>
-      </ul>
+          <li>
+            <img src="assets/js.svg" alt="JS icon" class="svg-icon">
+          </li>
+          <li>
+            <img src="assets/c-sharp.svg" alt="C sharp icon" class="svg-icon">
+          </li>
+        </ul>
         <div class="btn-group">
           <div><a href="https://youtu.be/hKlfTqi45kU" target="_blank" class="btn">Live Demo</a></div>
-          <div><a href="https://github.com/Ramazan774/SpecFlow-Test-Generator" target="_blank" class="btn">Github Repo</a></div>
+          <div><a href="https://github.com/Ramazan774/SpecFlow-Test-Generator" target="_blank" class="btn">Github
+              Repo</a></div>
         </div>
       </div>
 
-      <!-- <div class="project-card">
-        <img src="" alt="">
-        <h3>Coindropper</h3>
-        <p>Mini game to collect falling coins.</p>
+      <div class="project-card">
+        <img src="assets/snaxity.png" alt="Snaxity project image">
+        <h3>Snaxity</h3>
+        <p>E-commerce store for selling snack boxes.</p>
         <ul class="svg-icon-list">
-        <li>
-          <img src="assets/js.svg" alt="JS icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/dot-net.svg" alt="Dotnet icon" class="svg-icon">
-        </li>
-      </ul>
+          <li>
+            <img src="assets/nextjs-icon.svg" alt="NextJS icon" class="svg-icon">
+          </li>
+          <li>
+            <img src="assets/tailwindcss.svg" alt="TailwindCSS icon" class="svg-icon">
+          </li>
+        </ul>
         <div class="btn-group">
-          <div class="btn">Live Demo</div>
-          <div class="btn">Github Repo</div>
+          <div><a href="https://snaxity-store.vercel.app" target="_blank" class="btn">Live Demo</a></div>
+          <div><a href="https://github.com/Ramazan774/snaxity-store" target="_blank" class="btn">Github Repo</a></div>
         </div>
-      </div> -->
-    <div class="project-card">
-      <img src="assets/snaxity.png" alt="Snaxity project image">
-      <h3>Snaxity</h3>
-      <p>E-commerce store for selling snack boxes.</p>
-      <ul class="svg-icon-list">
-        <li>
-          <img src="assets/nextjs-icon.svg" alt="NextJS icon" class="svg-icon">
-        </li>
-        <li>
-          <img src="assets/tailwindcss.svg" alt="TailwindCSS icon" class="svg-icon">
-        </li>
-      </ul>
-      <div class="btn-group">
-        <div><a href="https://snaxity-store.vercel.app" target="_blank" class="btn">Live Demo</a></div>
-        <div><a href="https://github.com/Ramazan774/snaxity-store" target="_blank" class="btn">Github Repo</a></div>
       </div>
-    </div>  
+    </div>
   </section>
 
   <section class="articles" id="articles">
@@ -292,32 +291,33 @@
         <div class="article-info">
           <span class="year">2020</span>
           <h3 class="title">Inside the V8 Engine</h3>
-          <a href="https://ramazan-ramazanov.medium.com/inside-the-v8-engine-451683eae8e8" target="_blank"><img src="assets/arrow-up-right.svg" alt="Arrow up right" class="upright-icon"></a>
+          <a href="https://ramazan-ramazanov.medium.com/inside-the-v8-engine-451683eae8e8" target="_blank"><img
+              src="assets/arrow-up-right.svg" alt="Arrow up right" class="upright-icon"></a>
         </div>
       </div>
-      
-      <div class="articles-list">
-        <div class="article">
-          <img src="assets/Medium-Icon.png" alt="Medium icon">
-          <div class="article-info">
-            <span class="year">2020</span>
-            <h3 class="title">3 Design Patterns you should know</h3>
-            <a href="https://ramazan-ramazanov.medium.com/3-design-patterns-you-should-know-ee4843879095" target="_blank"><img src="assets/arrow-up-right.svg" alt="Arrow up right" class="upright-icon"></a>
-          </div>
-        </div>
 
-        <div class="articles-list">
-          <div class="article">
-            <img src="assets/Medium-Icon.png" alt="Medium icon">
-            <div class="article-info">
-              <span class="year">2021</span>
-              <h3 class="title">What is good code?</h3>
-              <a href="https://ramazan-ramazanov.medium.com/what-is-good-code-71eeb65a08a3" target="_blank"><img src="assets/arrow-up-right.svg" alt="Arrow up right" class="upright-icon"></a>
-            </div>
-          </div>
+      <div class="article">
+        <img src="assets/Medium-Icon.png" alt="Medium icon">
+        <div class="article-info">
+          <span class="year">2020</span>
+          <h3 class="title">3 Design Patterns you should know</h3>
+          <a href="https://ramazan-ramazanov.medium.com/3-design-patterns-you-should-know-ee4843879095"
+            target="_blank"><img src="assets/arrow-up-right.svg" alt="Arrow up right" class="upright-icon"></a>
+        </div>
+      </div>
+
+      <div class="article">
+        <img src="assets/Medium-Icon.png" alt="Medium icon">
+        <div class="article-info">
+          <span class="year">2021</span>
+          <h3 class="title">What is good code?</h3>
+          <a href="https://ramazan-ramazanov.medium.com/what-is-good-code-71eeb65a08a3" target="_blank"><img
+              src="assets/arrow-up-right.svg" alt="Arrow up right" class="upright-icon"></a>
+        </div>
+      </div>
     </div>
   </section>
-  
+
   <footer>
     <ul>
       <li>
@@ -338,4 +338,5 @@
   </footer>
   <script src="script.js"></script>
 </body>
+
 </html>
