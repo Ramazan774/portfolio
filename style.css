@@ -471,17 +471,6 @@ section {
   padding: 0;
 }
 
-.project-card ul.svg-icon-list li {
-  background: rgba(0, 0, 0, 0.03);
-  padding: 6px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: auto;
-  line-height: 0;
-}
-
 .project-card ul.svg-icon-list li:hover {
   border-color: var(--glass-border);
 }
