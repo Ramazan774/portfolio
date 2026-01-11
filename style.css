@@ -3,9 +3,9 @@
   --bg-gradient: radial-gradient(circle at 50% 0%, #fff 0%, #fdfbf7 100%);
   --text-main: #1c1917;
   --text-secondary: #57534e;
-  --accent-primary: #6366f1;
+  --accent-primary: #40b08b;
   --accent-secondary: #a855f7;
-  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  --accent-gradient: linear-gradient(135deg, #47b74f 0%, #349f9b 100%);
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(0, 0, 0, 0.05);
   --card-hover-bg: rgba(255, 255, 255, 1);
